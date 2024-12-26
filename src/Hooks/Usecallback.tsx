@@ -6,7 +6,7 @@ type Props2 = {
 const Usecallback = (props: Props2) => {
   useEffect(() => {
     console.log("Increment function passed or updated");
-  }, [props.increment]);
+  }, []);
 
   return (
     <div>
