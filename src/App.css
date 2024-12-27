@@ -1,0 +1,26 @@
+.nav-bar{
+    display:flex;
+    background-color: black;
+    justify-content: space-evenly;
+}
+.nav-bar ul li{
+    display: inline-flex;
+    list-style-type: none;
+    margin:20px;
+    font-size: 2rem;
+    color:white;
+}
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    background-color: beige;
+}
+div{
+    text-align: center;
+    background-color:azure;
+    margin:15px;
+}
+button{
+    border-radius: 10px;
+}
